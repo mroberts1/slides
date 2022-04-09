@@ -11,7 +11,7 @@ output:
     chakra: libs/remark-latest.min.js
     lib_dir: libs
     nature:
-      #countdown: 60000
+      ratio: '16:9'
       titleSlideClass: [middle, center, inverse]
       highlightStyle: github
       highlightLines: true
