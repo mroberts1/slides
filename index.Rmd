@@ -1,0 +1,10 @@
+---
+title: "Slides index"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[African Cinema 101](https://mroberts1.github.io/slides/african-cinema101.html)
