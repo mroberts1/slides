@@ -1,5 +1,5 @@
 ---
-title: "Slides index"
+title: "Index"
 output: html_document
 ---
 

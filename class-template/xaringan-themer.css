@@ -43,22 +43,20 @@
   --header-h3-font-size: 1.75rem;
 
   /* Colors */
-  --text-color: #FEFEFE;
-  --header-color: #bef7bf;
-  --background-color: #353535;
-  --link-color: #bef7bf;
-  --text-bold-color: #bef7bf;
-  --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #353535;
-  --inverse-background-color: #bef7bf;
-  --inverse-header-color: #353535;
-  --inverse-link-color: #bef7bf;
-  --title-slide-background-color: #353535;
-  --title-slide-text-color: #bef7bf;
-  --header-background-color: #bef7bf;
-  --header-background-text-color: #353535;
-  --primary: #353535;
-  --secondary: #bef7bf;
+  --text-color: #839496;
+  --header-color: #dc322f;
+  --background-color: #002b36;
+  --link-color: #b58900;
+  --text-bold-color: #d33682;
+  --code-highlight-color: #268bd240;
+  --inverse-text-color: #002b36;
+  --inverse-background-color: #fdf6e3;
+  --inverse-header-color: #002b36;
+  --inverse-link-color: #b58900;
+  --title-slide-background-color: #fdf6e3;
+  --title-slide-text-color: #002b36;
+  --header-background-color: #dc322f;
+  --header-background-text-color: #002b36;
 }
 
 html {
@@ -99,10 +97,10 @@ h1, h2, h3 {
 }
 .remark-inline-code {
   font-size: var(--code-inline-font-size);
-  color: #bef7bf;
+  color: #6c71c4;
 }
 .remark-slide-number {
-  color: #FEFEFE;
+  color: #586e75;
   opacity: 1;
   font-size: 0.9rem;
 }
@@ -150,10 +148,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #bef7bf99;
+  color: #586e75;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #bef7bf;
+  color: #93a1a1;
 }
 .right-column {
   width: 75%;
@@ -175,22 +173,22 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #bef7bf80;
+  border-left: solid 5px #cb4b16;
   padding-left: 1em;
 }
 .remark-slide table {
   margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+  border-top: 1px solid #657b83;
+  border-bottom: 1px solid #657b83;
 }
 .remark-slide table thead th {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #657b83;
 }
 th, td {
   padding: 5px;
 }
 .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
-  background: #EAEAEA;
+  background: #073642;
 }
 table.dataTable tbody {
   background-color: var(--background-color);
@@ -200,7 +198,7 @@ table.dataTable.display tbody tr.odd {
   background-color: var(--background-color);
 }
 table.dataTable.display tbody tr.even {
-  background-color: #EAEAEA;
+  background-color: #073642;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
@@ -270,16 +268,4 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   }
 }
 
-.primary {
-  color: var(--primary);
-}
-.bg-primary {
-  background-color: var(--primary);
-}
-.secondary {
-  color: var(--secondary);
-}
-.bg-secondary {
-  background-color: var(--secondary);
-}
 

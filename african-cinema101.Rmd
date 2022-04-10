@@ -20,9 +20,9 @@ output:
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_mono_dark(base_color = "#cbf7ed",
-  header_font_google = google_font("Permanent Marker"),
-  text_font_google   = google_font("Varela", "300", "300i"),
+style_duo(primary_color = "#353535", secondary_color = "#bef7bf",
+  header_font_google = google_font("Cabin"),
+  text_font_google = google_font("Noto Sans", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
 )
 ```
